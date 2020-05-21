@@ -1,0 +1,104 @@
+//-----------------------------------------------------------------
+// Space Out Resources
+// RC Source - SpaceOut.rc
+//-----------------------------------------------------------------
+
+//-----------------------------------------------------------------
+// Include Files
+//-----------------------------------------------------------------
+#include "Resource.h"
+
+//-----------------------------------------------------------------
+// Icons
+//-----------------------------------------------------------------
+IDI_SPACEOUT          ICON         "Tank2020.ico"
+IDI_SPACEOUT_SM       ICON         "Tank2020_sm.ico"
+
+//-----------------------------------------------------------------
+// Bitmaps
+//-----------------------------------------------------------------
+IDB_BULLET              BITMAP                  "Resources\\Sprites\\bullet.bmp"
+
+IDB_PLAYERUP            BITMAP                  "Resources\\Sprites\\gameicon.bmp"
+
+IDB_BLOCKSTEEL          BITMAP                  "Resources\\Sprites\\steel.bmp"
+
+IDB_TANKBLUE            BITMAP                  "Resources\\Sprites\\tank_blue.bmp"
+
+IDB_TANKGREY            BITMAP                  "Resources\\Sprites\\tank_grey.bmp"
+
+IDB_TANKRED             BITMAP                  "Resources\\Sprites\\tank_red.bmp"
+
+IDB_TILEGRASS           BITMAP                  "Resources\\Sprites\\tile_grass.bmp"
+
+IDB_TILESAND            BITMAP                  "Resources\\Sprites\\tile_sand.bmp"
+
+IDB_BLOCKWOOD           BITMAP                  "Resources\\Sprites\\wood.bmp"
+
+IDB_TANKGREEN           BITMAP                  "Resources\\Sprites\\tank_green.bmp"
+
+IDB_BACKGROUND          BITMAP                  "Resources\\Sprites\\Background.bmp"
+
+IDB_TILEBLACK           BITMAP                  "Resources\\Sprites\\TileBlack.bmp"
+
+IDB_TILEBORDER          BITMAP                  "Resources\\Sprites\\border.bmp"
+
+IDB_PLAYERDOWN          BITMAP                  "Resources\\Sprites\\player_down.bmp"
+
+IDB_PLAYERLEFT          BITMAP                  "Resources\\Sprites\\player_left.bmp"
+
+IDB_PLAYERRIGHT         BITMAP                  "Resources\\Sprites\\player_right.bmp"
+
+IDB_TANK_GREEN_RIGHT    BITMAP                  "Resources\\Sprites\\tank_green_right.bmp"
+
+IDB_TANK_GREEN_UP       BITMAP                  "Resources\\Sprites\\tank_green_up.bmp"
+
+IDB_TANK_GREEN_LEFT     BITMAP                  "Resources\\Sprites\\tank_green_left.bmp"
+
+IDB_TANK_GREEN_DOWN     BITMAP                  "Resources\\Sprites\\tank_green_down.bmp"
+
+IDB_TANK_BLUE_RIGHT     BITMAP                  "Resources\\Sprites\\tank_blue_right.bmp"
+
+IDB_TANK_BLUE_UP        BITMAP                  "Resources\\Sprites\\tank_blue_up.bmp"
+
+IDB_TANK_BLUE_LEFT      BITMAP                  "Resources\\Sprites\\tank_blue_left.bmp"
+
+IDB_TANK_BLUE_DOWN      BITMAP                  "Resources\\Sprites\\tank_blue_down.bmp"
+
+IDB_TANK_RED_LEFT       BITMAP                  "Resources\\Sprites\\tank_red_left.bmp"
+
+IDB_TANK_RED_DOWN       BITMAP                  "Resources\\Sprites\\tank_red_down.bmp"
+
+IDB_TANK_RED_RIGHT      BITMAP                  "Resources\\Sprites\\tank_red_right.bmp"
+
+IDB_TANK_RED_UP         BITMAP                  "Resources\\Sprites\\tank_red_up.bmp"
+
+IDB_TANK_GREY_RIGHT     BITMAP                  "Resources\\Sprites\\tank_grey_right.bmp"
+
+IDB_TANK_GREY_UP        BITMAP                  "Resources\\Sprites\\tank_grey_up.bmp"
+
+IDB_TANK_GREY_LEFT      BITMAP                  "Resources\\Sprites\\tank_grey_left.bmp"
+
+IDB_TANK_GREY_DOWN      BITMAP                  "Resources\\Sprites\\tank_grey_down.bmp"
+
+IDB_LGEXPLOSION			BITMAP					"Resources\\Sprites\\LgExplosion.bmp"
+
+IDB_SMEXPLOSION			BITMAP					"Resources\\Sprites\\SmExplosion.bmp"
+
+IDB_FLAG			    BITMAP			        "Resources\\Sprites\\flag.bmp"
+
+IDB_GAMEOVER		    BITMAP			        "Resources\\Sprites\\gameover.bmp"
+
+// AUDIO
+
+IDW_ENEMYEXPLODE1       WAVE                  "Resources\\Audio\\enemy_explode1.wav"
+
+IDW_ENEMYEXPLODE2       WAVE                  "Resources\\Audio\\enemy_explode2.wav"
+
+IDW_GOTTOFLAG           WAVE                  "Resources\\Audio\\got_to_flag.wav"
+
+IDW_PLAYERDEAD			WAVE				  "Resources\\Audio\\player_dead.wav"
+
+IDW_TANKFIRE			WAVE				  "Resources\\Audio\\tank_fire.wav"
+
+IDW_CRATEBREAK			WAVE				  "Resources\\Audio\\cratebreak.wav"
